@@ -1,0 +1,20 @@
+.icon-utillz {
+  display: block;
+  width: 70px;
+  height: 23px;
+  margin: 0.5rem auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../images/utillz.svg");
+}
+
+#elementor-notice-bar {
+  display: none !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  .icon-utillz {
+    background-image: url("../images/utillz-white.svg");
+  }
+}

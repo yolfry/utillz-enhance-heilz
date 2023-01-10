@@ -1,0 +1,1297 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-04 10:36+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: inc/components/init.php:21 inc/components/listing/action/download.php:241
+msgid "Download"
+msgstr ""
+
+#: inc/components/init.php:25
+msgid "Select Products"
+msgstr ""
+
+#: inc/components/init.php:26
+msgid ""
+"The WooCommerce products of type `Listing download plan` that will be used "
+"to create the order"
+msgstr ""
+
+#: inc/components/init.php:32
+msgid ""
+"There are no available products of type `Listing download plan`, please "
+"create one by going to Products > Add New"
+msgstr ""
+
+#: inc/components/init.php:38
+msgid "Additional files to bundle (optional)"
+msgstr ""
+
+#: inc/components/init.php:39
+msgid ""
+"Here you can add additional files that will be included in the download "
+"package. It could be a license, read me file or anything else"
+msgstr ""
+
+#: inc/components/init.php:43
+msgid "Title (optional)"
+msgstr ""
+
+#: inc/components/init.php:47
+msgid "Summary (optional)"
+msgstr ""
+
+#: inc/components/listing/author.php:48
+#, php-format
+msgid "%s review"
+msgid_plural "%s reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/components/listing/author.php:64
+#, php-format
+msgid "Contact %s"
+msgstr ""
+
+#: inc/components/listing/author.php:70
+msgid "View profile"
+msgstr ""
+
+#: inc/components/listing/action/download.php:67
+msgid "This is one of your items"
+msgstr ""
+
+#: inc/components/listing/action/download.php:82
+msgid ""
+"You have previously unlocked this download and it won't count toward any "
+"plan limitations"
+msgstr ""
+
+#: inc/components/listing/action/download.php:111
+msgid "On-demand"
+msgstr ""
+
+#: inc/components/listing/action/download.php:117
+msgid "Subscription"
+msgstr ""
+
+#: inc/components/listing/action/download.php:146
+#: inc/components/listing/action/download.php:198
+msgid "Available"
+msgstr ""
+
+#: inc/components/listing/action/download.php:154
+#: inc/components/listing/action/download.php:206
+msgid "Unlimited downloads left"
+msgstr ""
+
+#: inc/components/listing/action/download.php:156
+#: inc/components/listing/action/download.php:208
+#, php-format
+msgid "%s available downloads"
+msgstr ""
+
+#: inc/components/listing/action/download.php:163
+#: inc/components/listing/action/download.php:215
+msgid "Plan limitation has been reached"
+msgstr ""
+
+#: inc/components/listing/action/download.php:166
+#: inc/components/listing/action/download.php:218
+#, php-format
+msgid "%s download"
+msgid_plural "%s downloads"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/components/listing/action/download.php:166
+#: inc/components/listing/action/download.php:218
+msgid "Unlimited"
+msgstr ""
+
+#: inc/components/listing/action/download.php:252
+msgid ""
+"No products of type `Listing Download` were selected in your action type"
+msgstr ""
+
+#: inc/components/listing/action/download.php:262
+msgid "Activate WooCommerce in order to display the download plans"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.adaptive-grid.php:21
+msgid "Adaptive Grid"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.adaptive-grid.php:43
+#: inc/lib/elementor/class.elementor.articles.php:32
+#: inc/lib/elementor/class.elementor.board.php:32
+#: inc/lib/elementor/class.elementor.button-stack.php:32
+#: inc/lib/elementor/class.elementor.collections.php:32
+#: inc/lib/elementor/class.elementor.faq.php:32
+#: inc/lib/elementor/class.elementor.faq.php:56
+#: inc/lib/elementor/class.elementor.heading.php:32
+#: inc/lib/elementor/class.elementor.listings.php:34
+#: inc/lib/elementor/class.elementor.point.php:32
+#: inc/lib/elementor/class.elementor.product-table.php:32
+#: inc/lib/elementor/class.elementor.search.php:32
+#: inc/lib/elementor/class.elementor.toggle.php:32
+msgid "Content"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.adaptive-grid.php:52
+#: inc/lib/elementor/class.elementor.adaptive-grid.php:54
+#: templates/admin/theme-settings/sections.php:365
+#: templates/admin/theme-settings/sections.php:404
+msgid "Name"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.adaptive-grid.php:61
+#: inc/lib/elementor/class.elementor.adaptive-grid.php:63
+msgid "Description"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.adaptive-grid.php:71
+msgid "Image"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.adaptive-grid.php:79
+msgid "URI Location"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.adaptive-grid.php:82
+msgid "Listing Type"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.adaptive-grid.php:83
+#: templates/admin/theme-settings/sections.php:360
+msgid "Custom"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.adaptive-grid.php:103
+#: inc/lib/elementor/class.elementor.listings.php:98
+msgid "Select Listing Type"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.adaptive-grid.php:116
+msgid "Custom Location URI"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.adaptive-grid.php:129
+msgid "Boxes"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.articles.php:10
+msgid "Articles"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.articles.php:40
+#: inc/lib/elementor/class.elementor.collections.php:56
+msgid "Rows"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.articles.php:60
+msgid "Select Category"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.articles.php:70
+msgid "Hide excerpt"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.articles.php:72
+#: inc/lib/elementor/class.elementor.button-stack.php:104
+#: inc/lib/elementor/class.elementor.button-stack.php:118
+#: inc/lib/elementor/class.elementor.button-stack.php:129
+msgid "Yes"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.articles.php:73
+#: inc/lib/elementor/class.elementor.button-stack.php:105
+#: inc/lib/elementor/class.elementor.button-stack.php:119
+#: inc/lib/elementor/class.elementor.button-stack.php:130
+msgid "No"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.articles.php:115
+msgid "No articles were found"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.board.php:10
+msgid "Board"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.board.php:40
+msgid "Summary"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.board.php:47
+msgid "Background Color"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.board.php:57
+msgid "Button Text"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.board.php:65
+msgid "Button URL"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.button-stack.php:10
+msgid "Button Stack"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.button-stack.php:39
+msgid "Align"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.button-stack.php:42
+msgid "Left"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.button-stack.php:43
+msgid "Center"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.button-stack.php:44
+msgid "Right"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.button-stack.php:60
+#: inc/lib/elementor/class.elementor.faq.php:46
+msgid "Text"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.button-stack.php:62
+msgid "Button"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.button-stack.php:69
+#: templates/admin/theme-settings/sections.php:369
+#: templates/admin/theme-settings/sections.php:485
+msgid "URL"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.button-stack.php:77
+#: inc/lib/elementor/class.elementor.point.php:39
+#: templates/admin/theme-settings/sections.php:374
+#: templates/admin/theme-settings/sections.php:420
+#: templates/admin/theme-settings/sections.php:472
+#: templates/admin/theme-settings/sections.php:481
+msgid "Icon"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.button-stack.php:89
+#: inc/lib/elementor/class.elementor.collections.php:40
+#: inc/lib/elementor/class.elementor.heading.php:159
+msgid "Style"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.button-stack.php:92
+#: inc/lib/elementor/class.elementor.toggle.php:49
+msgid "Primary"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.button-stack.php:93
+#: inc/lib/elementor/class.elementor.toggle.php:66
+msgid "Secondary"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.button-stack.php:102
+msgid "White Color"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.button-stack.php:116
+msgid "Open in a new tab"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.button-stack.php:127
+#: inc/lib/elementor/class.elementor.heading.php:74
+#: inc/lib/elementor/class.elementor.heading.php:141
+msgid "Large"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.button-stack.php:139
+msgid "Buttons"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.collections.php:10
+msgid "Collections"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.collections.php:43
+msgid "Wall"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.collections.php:44
+#: inc/lib/elementor/class.elementor.collections.php:74
+#: inc/lib/elementor/class.elementor.collections.php:89
+#: inc/lib/elementor/class.elementor.listings.php:54
+msgid "Columns"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.collections.php:45
+msgid "Stack"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.collections.php:46
+msgid "Thumbs"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.collections.php:107
+msgid "Size"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.collections.php:129
+msgid "Wall grid"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.collections.php:157
+msgid "Select specific collections (optional)"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.collections.php:168
+msgid "Show tags?"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.collections.php:183
+msgid "Dark tag colors?"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.collections.php:198
+msgid "Dark Shadow?"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.collections.php:297
+msgid "No collections were found."
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.faq.php:10
+msgid "FAQ"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.faq.php:48
+msgid "Some name"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.faq.php:58
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ultricies "
+"diam neque, eget sagittis sem blandit sit amet. Praesent varius nulla a "
+"magna ultricies, et condimentum orci porta."
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.faq.php:65
+msgid "Items"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.heading.php:10
+msgid "Heading"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.heading.php:40
+#: inc/lib/elementor/class.elementor.heading.php:42
+#: inc/src/admin/columns/download-plan.php:33
+#: templates/admin/theme-settings/sections.php:477
+msgid "Title"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.heading.php:49
+msgid "Title Tag"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.heading.php:69
+msgid "Title Size"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.heading.php:72
+#: inc/lib/elementor/class.elementor.heading.php:139
+msgid "Small"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.heading.php:73
+#: inc/lib/elementor/class.elementor.heading.php:140
+msgid "Medium"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.heading.php:75
+#: inc/lib/elementor/class.elementor.heading.php:142
+msgid "XL"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.heading.php:76
+#: inc/lib/elementor/class.elementor.heading.php:143
+msgid "XXL"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.heading.php:77
+#: inc/lib/elementor/class.elementor.heading.php:144
+msgid "XXXL"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.heading.php:78
+msgid "XXXXL"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.heading.php:87
+msgid "Sub-Title"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.heading.php:96
+msgid "Sub-Title URL (optional)"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.heading.php:104
+msgid "Sub-Title Icon (optional)"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.heading.php:115
+msgid "Sub-Title Tag"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.heading.php:135
+msgid "Sub-Title Size"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.heading.php:138
+msgid "Normal"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.heading.php:171
+msgid "Text Color"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.listings.php:12
+msgid "Listings"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.listings.php:42
+msgid "Posts per Page"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.listings.php:58
+msgid "20% — Small"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.listings.php:59
+msgid "25% — Medium"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.listings.php:60
+msgid "33% — Large"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.listings.php:61
+msgid "50% — Supersize"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.listings.php:81
+msgid "Display"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.listings.php:85
+msgid "Landscape"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.listings.php:86
+msgid "Square"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.listings.php:87
+msgid "Portrait"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.listings.php:88
+msgid "Automatic — Masonry"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.listings.php:109
+msgid "Sorting"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.listings.php:112
+msgid "Latest"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.listings.php:113
+msgid "Top Rated"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.listings.php:114
+msgid "Priority"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.listings.php:115
+msgid "Random"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.listings.php:123
+msgid "None"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.listings.php:124
+msgid "Categories"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.listings.php:125
+msgid "Regions"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.listings.php:126
+msgid "Tags"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.listings.php:145
+msgid "Selection by"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.listings.php:148
+#: inc/lib/elementor/class.elementor.listings.php:159
+msgid "Taxonomy"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.listings.php:149
+#: inc/lib/elementor/class.elementor.listings.php:211
+msgid "Collection"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.listings.php:182
+#, php-format
+msgid "Terms - %s"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.listings.php:386
+msgid "No results were found."
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.php:74
+msgid "Utillz"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.point.php:10
+msgid "Focus Point"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.product-table.php:10
+msgid "Product Table"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.product-table.php:59
+#: inc/src/admin/columns/download-plan.php:38
+msgid "Product"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.product-table.php:96
+#: inc/src/listing/download.php:87
+msgid "Free"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.product-table.php:103
+msgid "Purchase now"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.search.php:10
+msgid "Search"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.search.php:50
+msgid "Select Search Form"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.toggle.php:10
+msgid "Toggle Sections"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.toggle.php:39
+msgid "ID of primary section"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.toggle.php:47
+msgid "Primary Text"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.toggle.php:56
+msgid "ID of secondary section"
+msgstr ""
+
+#: inc/lib/elementor/class.elementor.toggle.php:64
+msgid "Secondary Text"
+msgstr ""
+
+#: inc/src/admin.php:56
+msgctxt "Pages options in wp-admin"
+msgid "Page"
+msgstr ""
+
+#: inc/src/admin.php:64
+msgctxt "Post options in wp-admin"
+msgid "Post"
+msgstr ""
+
+#: inc/src/admin.php:137
+msgid "All listing types"
+msgstr ""
+
+#: inc/src/settings.php:44
+msgid "Enable related collections"
+msgstr ""
+
+#: inc/src/settings.php:50
+msgid "Related collections — number of posts"
+msgstr ""
+
+#: inc/src/admin/metabox.php:21
+msgctxt "Download Plan options in wp-admin"
+msgid "Download Plan"
+msgstr ""
+
+#: inc/src/admin/columns/download-plan.php:34
+msgid "Status"
+msgstr ""
+
+#: inc/src/admin/columns/download-plan.php:36
+msgid "Owner"
+msgstr ""
+
+#: inc/src/admin/columns/download-plan.php:37
+msgid "Usage"
+msgstr ""
+
+#: inc/src/admin/columns/download-plan.php:39
+#: templates/admin/metabox/download-plan.php:43
+msgid "Order"
+msgstr ""
+
+#: inc/src/admin/columns/download-plan.php:40
+msgid "Posted"
+msgstr ""
+
+#: inc/src/admin/columns/download-plan.php:41
+msgid "Actions"
+msgstr ""
+
+#: inc/src/admin/columns/download-plan.php:84
+#, php-format
+msgid "%s posted of %s"
+msgstr ""
+
+#: inc/src/admin/columns/download-plan.php:84
+msgid "unlimited"
+msgstr ""
+
+#: inc/src/admin/columns/download-plan.php:110
+#, php-format
+msgid "ID: %d"
+msgstr ""
+
+#: inc/src/admin/columns/download-plan.php:120
+msgid "by a guest"
+msgstr ""
+
+#: inc/src/admin/columns/download-plan.php:120
+#, php-format
+msgid "by %s"
+msgstr ""
+
+#: inc/src/admin/columns/download-plan.php:138
+msgid "Approve"
+msgstr ""
+
+#: inc/src/admin/columns/download-plan.php:147
+#: inc/src/woocommerce/post-types.php:47 inc/src/woocommerce/post-types.php:97
+msgid "Edit"
+msgstr ""
+
+#: inc/src/admin/columns/download-plan.php:155
+msgid "Delete"
+msgstr ""
+
+#: inc/src/admin/http/endpoints/endpoint-action-download.php:34
+msgid "Please install WooCommerce in order to enable this action type"
+msgstr ""
+
+#: inc/src/admin/http/endpoints/endpoint-action-download.php:41
+msgid "Security check not passed"
+msgstr ""
+
+#: inc/src/admin/http/endpoints/endpoint-action-download.php:65
+msgid "Please select a plan"
+msgstr ""
+
+#: inc/src/admin/http/endpoints/endpoint-action-download.php:77
+msgid ""
+"Action type product is missing. Please edit the action type and select a "
+"WooCommerce product pf type `listing purchase`."
+msgstr ""
+
+#: inc/src/admin/http/endpoints/endpoint-action-download.php:93
+msgid "Please signin to process the download"
+msgstr ""
+
+#: inc/src/admin/http/endpoints/endpoint-action-download.php:99
+msgid "The plan limit has been reached"
+msgstr ""
+
+#: inc/src/admin/http/endpoints/endpoint-action-download.php:250
+msgid "Can't find any download file"
+msgstr ""
+
+#: inc/src/admin/http/endpoints/endpoint-action-download.php:257
+msgid "Downloaded successfully"
+msgstr ""
+
+#: inc/src/notification/notifications/new-download.php:18
+#: inc/src/notification/notifications/new-download.php:26
+#: inc/src/notification/notifications/new-download.php:57
+msgid "Your have a new download"
+msgstr ""
+
+#: inc/src/notification/notifications/new-download.php:30
+msgid ""
+"Hello {user_display_name},\r\n"
+"\r\n"
+"Your have a new download."
+msgstr ""
+
+#: inc/src/notification/notifications/new-download.php:38
+msgid "New download"
+msgstr ""
+
+#: inc/src/notification/notifications/new-download.php:42
+msgid ""
+"Hello,\r\n"
+"\r\n"
+"Your have a new download"
+msgstr ""
+
+#: inc/src/woocommerce/post-types.php:28
+msgid "Download Plan"
+msgstr ""
+
+#: inc/src/woocommerce/post-types.php:29
+msgid "Download Plans"
+msgstr ""
+
+#: inc/src/woocommerce/post-types.php:44 inc/src/woocommerce/post-types.php:94
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: inc/src/woocommerce/post-types.php:45 inc/src/woocommerce/post-types.php:95
+msgid "Add New"
+msgstr ""
+
+#: inc/src/woocommerce/post-types.php:46 inc/src/woocommerce/post-types.php:96
+#, php-format
+msgid "Add %s"
+msgstr ""
+
+#: inc/src/woocommerce/post-types.php:48 inc/src/woocommerce/post-types.php:98
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: inc/src/woocommerce/post-types.php:49 inc/src/woocommerce/post-types.php:99
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: inc/src/woocommerce/post-types.php:50 inc/src/woocommerce/post-types.php:51
+#: inc/src/woocommerce/post-types.php:100
+#: inc/src/woocommerce/post-types.php:101
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: inc/src/woocommerce/post-types.php:52
+#: inc/src/woocommerce/post-types.php:102
+#, php-format
+msgid "Search %s"
+msgstr ""
+
+#: inc/src/woocommerce/post-types.php:53
+#: inc/src/woocommerce/post-types.php:103
+#, php-format
+msgid "No %s found"
+msgstr ""
+
+#: inc/src/woocommerce/post-types.php:54
+#: inc/src/woocommerce/post-types.php:104
+#, php-format
+msgid "No %s found in trash"
+msgstr ""
+
+#: inc/src/woocommerce/post-types.php:55
+#: inc/src/woocommerce/post-types.php:105
+#, php-format
+msgid "Parent %s"
+msgstr ""
+
+#: inc/src/woocommerce/post-types.php:78
+msgid "Promotion"
+msgstr ""
+
+#: inc/src/woocommerce/post-types.php:79
+msgid "Promotions"
+msgstr ""
+
+#: inc/src/woocommerce/post-types.php:133 inc/utils/helper.php:90
+msgctxt "post status"
+msgid "Cancelled"
+msgstr ""
+
+#: inc/src/woocommerce/post-types.php:138
+#, php-format
+msgid "Cancelled <span class=\"count\">(%s)</span>"
+msgid_plural "Cancelled <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/src/woocommerce/post-types.php:142 inc/utils/helper.php:89
+msgctxt "post status"
+msgid "Used"
+msgstr ""
+
+#: inc/src/woocommerce/post-types.php:148
+#, php-format
+msgid "Used <span class=\"count\">(%s)</span>"
+msgid_plural "Used <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/src/woocommerce/products/init.php:40
+msgid "Listing Download Plan"
+msgstr ""
+
+#: inc/src/woocommerce/products/init.php:43
+msgid "Listing Subscription Download Plan"
+msgstr ""
+
+#: inc/utils/helper.php:87
+msgctxt "post status"
+msgid "Active"
+msgstr ""
+
+#: inc/utils/helper.php:88
+msgctxt "post status"
+msgid "Inactive"
+msgstr ""
+
+#: inc/utils/helper.php:107
+msgid "Not assigned"
+msgstr ""
+
+#: templates/admin/metabox/download-plan.php:26
+msgid "General details"
+msgstr ""
+
+#: templates/admin/metabox/download-plan.php:32
+msgid "User"
+msgstr ""
+
+#: templates/admin/metabox/download-plan.php:37
+msgid "Download plan"
+msgstr ""
+
+#: templates/admin/metabox/download-plan.php:59
+msgid "Listing"
+msgstr ""
+
+#: templates/admin/metabox/download-plan.php:68
+msgid "Parameters"
+msgstr ""
+
+#: templates/admin/metabox/download-plan.php:76
+msgid "Count"
+msgstr ""
+
+#: templates/admin/metabox/download-plan.php:78
+msgid "How many items have been downloaded with this plan."
+msgstr ""
+
+#: templates/admin/metabox/download-plan.php:85
+msgid "Limit"
+msgstr ""
+
+#: templates/admin/metabox/download-plan.php:86
+msgid "The maximum number of downloads allows with this plan, 0 = unlimited."
+msgstr ""
+
+#: templates/admin/metabox/page.php:19
+msgid "Hide heading"
+msgstr ""
+
+#: templates/admin/metabox/page.php:25
+msgid "Enable wide page"
+msgstr ""
+
+#: templates/admin/metabox/page.php:31
+#: templates/admin/theme-settings/sections.php:85
+msgid "Enable dark header mode"
+msgstr ""
+
+#: templates/admin/metabox/page.php:37
+msgid "Heading custom title"
+msgstr ""
+
+#: templates/admin/metabox/page.php:49
+msgid "Heading summary"
+msgstr ""
+
+#: templates/admin/metabox/page.php:61
+msgid "Heading background color"
+msgstr ""
+
+#: templates/admin/metabox/page.php:74
+msgid "Heading text color"
+msgstr ""
+
+#: templates/admin/metabox/page.php:87
+msgid "Heading background image"
+msgstr ""
+
+#: templates/admin/metabox/page.php:98
+msgid "Overlap header"
+msgstr ""
+
+#: templates/admin/metabox/page.php:104
+msgid "Use transparent header background color overlapping state"
+msgstr ""
+
+#: templates/admin/metabox/page.php:115
+msgid "Hide primary search"
+msgstr ""
+
+#: templates/admin/metabox/page.php:121
+msgid "Hide footer"
+msgstr ""
+
+#: templates/admin/metabox/page.php:122
+msgid "No footer will be displayed"
+msgstr ""
+
+#: templates/admin/metabox/page.php:128
+msgid "Invert footer colors"
+msgstr ""
+
+#: templates/admin/metabox/post.php:22
+msgid "Featured article"
+msgstr ""
+
+#: templates/admin/metabox/post.php:28
+msgid "Gallery"
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:15
+#: templates/admin/theme-settings/tab-sub.php:11
+msgid "Styles"
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:22
+msgid "Specify the main theme colors"
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:23
+msgid "You can use HEX, RGB or HSL color formats"
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:23
+msgid "Click here to pick a nice color"
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:29
+msgid "Primary color"
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:37
+msgid "Secondary color"
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:45
+msgid "System"
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:53
+msgid "System background"
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:61
+msgid "Listing over background"
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:69
+msgid "Marker color"
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:77
+msgid "Marker text color"
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:92
+msgid "Enable dark footer Mode"
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:99
+msgid "Sign in background image"
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:106
+#: templates/admin/theme-settings/sections.php:140
+#: templates/admin/theme-settings/sections.php:281
+#: templates/admin/theme-settings/sections.php:334
+#: templates/admin/theme-settings/sections.php:447
+#: templates/admin/theme-settings/sections.php:503
+msgid "Save changes"
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:115
+#: templates/admin/theme-settings/tab-sub.php:16
+msgid "Fonts"
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:123
+msgid "Heading font"
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:124
+#, php-format
+msgid "Set custom font for headings from Google Fonts. %s"
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:131
+msgid "Body font"
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:132
+#, php-format
+msgid "Set custom font for site content. %s"
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:149
+#: templates/admin/theme-settings/tab-sub.php:21
+msgid "Header"
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:157
+msgid "Custom site name"
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:168
+msgid "Site logo type"
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:170
+msgid "Upload"
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:171
+msgid "Path"
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:181
+msgid "Upload site logo"
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:193
+msgid "Upload white logo"
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:206
+msgid "Path to site logo"
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:218
+msgid "Path to white logo"
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:230
+msgid "Enable favorites in account drop-down"
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:236
+msgid "Select primary search form"
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:249
+msgid "Enable header call-to-action"
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:255
+msgid "Call-to-action label"
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:267
+msgid "Call-to-action target"
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:290
+#: templates/admin/theme-settings/tab-sub.php:26
+msgid "Footer"
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:298
+msgid "Footer summary"
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:304
+msgid "Footer copyright text"
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:310
+msgid "Footer bottom right text"
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:316
+msgid "Footer account text"
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:324
+msgid "Number of widget columns"
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:343
+#: templates/admin/theme-settings/tab-sub.php:31
+msgid "Mobile"
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:351
+msgid "Action bar"
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:352
+msgid "Customize your mobile navigation using multiple actions."
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:383
+#: templates/admin/theme-settings/sections.php:429
+msgid "Hide when logged out"
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:384
+#: templates/admin/theme-settings/sections.php:430
+msgid "Hide this item if the user is not logged in"
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:388
+#: templates/admin/theme-settings/sections.php:434
+msgid "Hide when logged in"
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:389
+#: templates/admin/theme-settings/sections.php:435
+msgid "Hide this item if the user is logged in"
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:399
+msgid "Pre-defined"
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:408
+msgid "Select page"
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:410
+msgid "Explore page"
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:411
+msgid "Submission page"
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:412
+msgid "Messages page"
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:413
+msgid "Open notifications panel"
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:414
+msgid "Open favorites modal"
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:415
+msgid "Open sign up modal / Sign out"
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:456
+#: templates/admin/theme-settings/tab-sub.php:36
+msgid "Social"
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:464
+msgid "Social media icons"
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:465
+msgid ""
+"Add the social media icons that you need, then use the element anywere on "
+"your site with the following shortcode: [utillz-social-icons]"
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:467
+msgid "Add new icon"
+msgstr ""
+
+#: templates/admin/theme-settings/sections.php:491
+msgid "Background color (optional)"
+msgstr ""
+
+#: templates/admin/theme-settings/tab-main.php:9
+msgid "Theme"
+msgstr ""
+
+#: templates/admin/woocommerce/product-listing-download-plan.php:9
+#: templates/admin/woocommerce/product-listing-download-subscription-plan.php:9
+msgid "Number of downloads"
+msgstr ""
+
+#: templates/admin/woocommerce/product-listing-download-plan.php:10
+#: templates/admin/woocommerce/product-listing-download-subscription-plan.php:10
+msgid ""
+"The total number of downloads available with this product. 0 = Unlimited"
+msgstr ""
+
+#: templates/admin/woocommerce/product-listing-download-plan.php:11
+#: templates/admin/woocommerce/product-listing-download-subscription-plan.php:11
+msgid "0 = Unlimited"
+msgstr ""
+
+#: templates/admin/woocommerce/product-listing-download-plan.php:23
+#: templates/admin/woocommerce/product-listing-download-subscription-plan.php:23
+msgid "Download earnings"
+msgstr ""
+
+#: templates/admin/woocommerce/product-listing-download-plan.php:24
+#: templates/admin/woocommerce/product-listing-download-subscription-plan.php:24
+msgid "Set the earning amount that will be collected by the listing owner"
+msgstr ""
+
+#: templates/admin/woocommerce/product-listing-download-plan.php:25
+#: templates/admin/woocommerce/product-listing-download-subscription-plan.php:25
+msgid "0 = No earnings"
+msgstr ""
+
+#: templates/admin/woocommerce/product-listing-download-plan.php:37
+#: templates/admin/woocommerce/product-listing-download-subscription-plan.php:37
+msgid "One time obtainable?"
+msgstr ""
+
+#: templates/admin/woocommerce/product-listing-download-plan.php:38
+#: templates/admin/woocommerce/product-listing-download-subscription-plan.php:38
+msgid ""
+"Use for free downloads, so customers cannot have more than one of these."
+msgstr ""
