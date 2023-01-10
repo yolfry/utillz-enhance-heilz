@@ -199,11 +199,17 @@ class Endpoint_Action_Download extends Endpoint
 	public function generate_download_url($listing)
 	{
 
+		// echo var_dump($listing);
+
 		// Obtener información del archivo desde la tabla de "WP Offload Media Lite"
 		global $wpdb;
-		$id = $listing->id;
+		// $id = $listing->id;
+
+		//Obtener id de descarga url
+		$id = Ucore()->json_decode($listing->get('ulz_download'))[0]->id;
+
 		$table = $wpdb->prefix . 'as3cf_items';
-		$query = "SELECT * FROM $table WHERE id = $id";
+		$query = "SELECT * FROM $table WHERE source_id = $id";
 		$file_info = $wpdb->get_row($query);
 
 
@@ -214,7 +220,9 @@ class Endpoint_Action_Download extends Endpoint
 		}
 
 		// Generar la URL de descarga del archivo
-		$download_url = $file_info->path;
+		$download_url = "https://" . $file_info->bucket . ".s3.amazonaws.com" . "/" .  $file_info->path;
+
+
 
 		// Descargar el archivo y guardarlo en la carpeta temporal
 		$zip = new \ZipArchive();
