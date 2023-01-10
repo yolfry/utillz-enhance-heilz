@@ -7,7 +7,7 @@
  * Plugin URI:        n/a
  * Description:       A WordPress plugin to enhance the experience of our themes
  * Version:           1.0.0.7.1
- * Author:            Utillz
+ * Author:            Utillz, Addo Yolfry Bautista 
  * Author URI:        https://utillz.com
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
