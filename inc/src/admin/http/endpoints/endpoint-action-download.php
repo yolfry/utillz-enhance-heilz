@@ -188,6 +188,55 @@ class Endpoint_Action_Download extends Endpoint
 		return;
 	}
 
+	public function generate_download_url_local($listing)
+	{
+		$zip = new \ZipArchive();
+		$generate_file_name = sprintf('download-%s', Ucore()->random());
+
+		// create the directory
+		if (!file_exists(UTILLZ_CORE_UPLOAD_PATH . 'utilities-temp-downloads/')) {
+			wp_mkdir_p(UTILLZ_CORE_UPLOAD_PATH . 'utilities-temp-downloads/');
+		}
+
+		if ($zip->open(sprintf(UTILLZ_CORE_UPLOAD_PATH . 'utilities-temp-downloads/%s.zip', $generate_file_name), \ZipArchive::CREATE) !== true) {
+			return null;
+		}
+
+		$action = $listing->type->get_action('download');
+
+		// extra bundle
+		if ($extra_bundle = $action->get_field('extra_bundle')) {
+			if (is_array($extra_bundle)) {
+				foreach ($extra_bundle as $extra) {
+					$extra_attached_file = get_attached_file($extra->id);
+					if ($extra_attached_file && file_exists($extra_attached_file)) {
+						$zip->addFile($extra_attached_file, basename($extra_attached_file));
+					}
+				}
+			}
+		}
+
+		$downloads = Ucore()->json_decode($listing->get('ulz_download'));
+		if (is_array($downloads)) {
+
+			foreach ($downloads as $download) {
+				$attached_file = get_attached_file($download->id);
+				$zip->addFile($attached_file, basename($attached_file));
+			}
+		}
+
+		$zip->close();
+
+		// bundle
+		$generated_bundle = sprintf(UTILLZ_CORE_UPLOAD_URI . 'utilities-temp-downloads/%s.zip', $generate_file_name);
+
+		if ($this->does_url_exists($generated_bundle)) {
+			return $generated_bundle;
+		}
+
+		return null;
+	}
+
 	/*
 	* @author Yolfry <yolfri1997@hotmail.com>
 	* @version 
@@ -196,6 +245,7 @@ class Endpoint_Action_Download extends Endpoint
 	* Este methodo generate_download_url esta modificado para que funcione con el plugin "WP Offload Media Lite" Amazon S3
 	* Permite obtener el archivo desde amazon s3 y guardarlo en temporal para que luego el cliente descargue su file.
 	*/
+
 	public function generate_download_url($listing)
 	{
 
@@ -216,7 +266,8 @@ class Endpoint_Action_Download extends Endpoint
 		// Comprobar si se obtuvo información del archivo
 		if (empty($file_info)) {
 			// No se encontró información del archivo en la tabla de "WP Offload Media Lite"
-			return null;
+			//Utilizar la version original de "utillz"
+			self::generate_download_url_local($listing);
 		}
 
 		// Generar la URL de descarga del archivo

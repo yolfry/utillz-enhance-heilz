@@ -1,0 +1,5 @@
+This plugin is modified to work with Amazon S3 with the plugin "WP Offload Media", 
+since the plugin only supports local file download to add it to the temporary folder,
+ this plugin is modified to download the file from Amazon S3 and add it to the tmp folder, 
+ so that customers can download it from the thema "utillz".  We modify "public function
+  generate_download_url()".
